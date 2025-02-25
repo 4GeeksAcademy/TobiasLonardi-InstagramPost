@@ -3,15 +3,15 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
+
 }
 .post{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 50%;
-    height: 50%;
+    width: 600px;
     border: 1px solid black;
-    box-sizing: border-box;
 }
 
 .post-header{
@@ -19,33 +19,36 @@ body{
     flex-direction: row;
     justify-content:flex-start;
     align-items: center;
-    border: 1px solid black;
+    height: 5vh;
+    margin: 10px;
 
 }
 .post-username{
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
-    box-sizing:border-box;
-
 
 }
 
+.options{
+    margin-left: 70%;
+}
+.post-username h4{
+    margin: 0;
+}
+
+.post-username h6{
+    margin: 0;
+}
 .post-icons{
     display: flex;
     flex-direction: row;
     justify-content:flex-start;
     align-items: center;
+    margin: 10px;
 }
-.post-icons-left{
-    height: 100%;
-    border: 1px solid black;
 
-}
-.post-icons-right{
-    height: 100%;
-    border: 1px solid black;
-
+.post-img img{
+    width: 100%;
 }
 
 .post-icons img{
@@ -58,21 +61,12 @@ body{
 
 
 
-
-
-
-
-
 .post-header img{
     height: 50px;
 }
 
-
-.post-img{
-    width: 100%;
-    border: 1px solid black;
+.post-body{
+    margin: 10px;
 
 }
-.post-img img{
-    width: 100%;
-}
+
